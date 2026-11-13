@@ -72,6 +72,19 @@
       top: 50%;
       left: 50%;
 }
+    .tech-symbol {
+    position: fixed;
+    font-size: 30px;
+    color: #151B54;
+    pointer-events: none;
+    z-index: 0;
+}
+    .tech-symbol.left {
+    left: 10px;
+}
+    .tech-symbol.right {
+    right: 10px;
+}
     section {
     padding: 50px 120px;
     font-size: 20px;
@@ -192,11 +205,12 @@
   
   
   <div class="tech-symbols">
-    <span>⌘</span>
-    <span>⏎</span>
-    <span>⇪</span>
-    <span>⇥</span>
-    <span>⏻</span>
+    <span class="tech-symbol left" style="top: 15%;">⌘</span>
+    <span class="tech-symbol left" style="top: 45%;">⏻</span>
+    <span class="tech-symbol left" style="top: 75%;">⇧</span>
+    <span class="tech-symbol right" style="top: 20%;">↵</span>
+    <span class="tech-symbol right" style="top: 50%;">⌁</span>
+    <span class="tech-symbol right" style="top: 80%;">⇥</span>
 </div>
 
 
