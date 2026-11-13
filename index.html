@@ -85,18 +85,18 @@
     padding: 50px 120px;
     font-size: 20px;
 }
-    .about-container {
+    .text-container {
       display: flex;
       align-items: center;
       gap: 40px;
 }
-    .about-text {
+    .text-text {
       flex: 0 1 auto;
 }
-    .about-text p {
+    .text-text p {
       white-space: nowrap;
 }
-    .about-image {
+    .text-image {
       width: 350px;
       height: 350px;
       border-radius: 10px;
@@ -123,23 +123,7 @@
       color: #79BAEC;
       text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);}
     
-    #projects .chart-container {
-      width: 90%;
-      max-width: 850px;
-      margin: 60px auto;
-      text-align: center;
-}
 
-    #projects .chart-container h3 {
-      color: #000000;
-      font-size: 26px;
-      margin-bottom: 35px;
-      text-align: center;
-}
-    #skillsChart {
-      width: 100%;
-}
- 
   </style>
 
 </head>
@@ -155,37 +139,23 @@
       <a href="#projects">projects</a>
     </div>
   </nav>
-<section id="about">
+<section id="text">
     <h1>about me</h1>
     <div class = "about-container">
       <div class = "about-text">
-        <p>undergraduate student studying mathematics and digital & data studies with a strong interest in</p>
-        <p>data science, analytics, and technology-driven problem solving. through academic and project experience,</p>
-        <p>i've developed skills in python, R, SQL, data analysis, visualization, agentic AI, machine learning, </strong></p>
-        <p>geospatial analysis, and workflow automation. brooklyn born & raised, binghamton based. </p>
+        <p>If you feel like everything online has gotten worse recently, you aren’t imagining things. With the rise of AI, no corner of the internet was left untouched. Of course, this includes app and website development. You may have heard the phrase “vibe coding” being thrown around. Unfortunately, this is an extremely misleading name to anyone unfamiliar with it. 
+
+Vibe coding describes the use of almost entirely (or entirely) generative AI to build a website or app. In other words, coding based on “vibe.” Oftentimes, this is someone with very little to no coding experience building an entire app using AI prompts. Without proper oversight, these vibe coded programs are about as well put together as a bridge made of toothpicks and scotch tape. That is to say, they are not exactly stable, or safe. 
+
+Apiiro, an application security platform, analyzed code from thousands of code repositories, coding assistants and developers across Fortune 50 enterprises. Their findings showed that AI dropped trivial errors in syntax (spelling errors in the code) by 76%. In turn, they found that architectural design flaws increased by 153%. This includes errors such as broken authorization flows and insecure designs. In simpler terms, it lacks the security measures needed to ward off potential attacks. Quite the tradeoff. 
+</p>
       </div>
-      <img src="https://i.pinimg.com/736x/bc/3c/8a/bc3c8af7757c8781085fdaf0552d2fae.jpg"
-           class = "about-image">
-      <img src = "https://i.pinimg.com/1200x/46/f0/51/46f051d7892ad25d2a2e837f4c67070c.jpg"
-           class = "about-image">
+  
     </div>
   
 </section>
   
-  <section id="skills">
-    <h1>skills</h1>
-    <div class="chart-container">
-      <h3>technologies used in my projects</h3>
-      <canvas id="projectChart"></canvas>
-</div>
-  </section>
-  <section id="projects">
-    <h1>projects</h1>
-    <div class = "chart container">
-      <h3 style = "text-align: center;">coding progress over time</h3>
-      <canvas id="skillsChart"></canvas>
-    </div>
-  </section>
+  
   <div class="tech-symbols">
     <span>⌘</span>
     <span>⏎</span>
